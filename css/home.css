@@ -1,0 +1,43 @@
+.text-picture-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.text-picture-container > img {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+    border-radius: 2.5%;
+}
+
+.text-h3 {
+    width: 40%;
+    padding: 0 3rem;
+}
+
+.text-h3 > h3 {
+    font-size: x-large;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .text-picture {
+        flex-direction: column;
+    }
+
+    .text-picture > img {
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .text-h3 {
+        width: 100%;
+        padding: 0;
+    }
+}
