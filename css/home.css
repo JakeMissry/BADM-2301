@@ -1,3 +1,9 @@
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
 .text-picture-container {
     display: flex;
     flex-direction: row;
@@ -26,18 +32,32 @@
 }
 
 @media screen and (max-width: 768px) {
+    footer {
+        position: relative;
+        width: auto;
+        bottom: auto;
+        padding: 2rem 0;
+    }
+
     .text-picture-container {
         flex-direction: column;
+        padding: 0;
     }
 
     .text-picture-container > img {
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
         height: auto;
+        padding: 0;
     }
 
     .text-h3 {
-        width: 100%;
-        padding: 0;
+        text-align: center;
+        width: 85%;
+        padding: 2rem 0;
+    }
+
+    .text-h3 > p {
+        text-align: left;
     }
 }

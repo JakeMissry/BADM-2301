@@ -1,0 +1,39 @@
+li {
+    margin-top: 0;
+    line-height: 1.25rem;
+}
+
+#resume {
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.resume-item {
+    margin-bottom: 2.5em;
+}
+
+.resume-item > * {
+    line-height: 0.75rem;
+}
+
+.resume-item > h4, p, ul {
+    margin-left: 2rem;
+}
+
+.resume-section > h2 {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    #resume {
+        width: 90vw;
+    }
+    .resume-item > * {
+        line-height: 1.25rem;
+    }
+
+    .resume-item > h4, p, ul {
+        margin-left: 1rem;
+    }
+
+}

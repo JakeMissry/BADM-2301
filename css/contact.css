@@ -55,3 +55,25 @@ input[type=submit]:hover {
     background-color: #986D8E;
     color: #EFE3D0;
 }
+
+@media screen and (max-width: 768px) {
+    #contact-form {
+        flex-direction: column;
+    }
+
+    .two-fields {
+        flex-direction: column;
+    }
+
+    .single-field {
+        width: 100%;
+    }
+
+    .left {
+        margin-right: 0;
+    }
+
+    .right {
+        margin-left: 0;
+    }
+}
