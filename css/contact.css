@@ -1,4 +1,4 @@
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
     padding: 12px;
     border: 1px solid #986D8E;
     border-radius: 4px;
