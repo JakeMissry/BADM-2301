@@ -29,7 +29,7 @@
             <a href="contact.html">Contact</a>
         </nav>
 
-        <form id="contact-form">
+        <form id="contact-form" action="https://formspree.io/f/xgedwlqy" method="POST">
             <div class="two-fields">
                 <div class="single-field left">
                     <label for="fname">First Name</label>
@@ -45,7 +45,7 @@
             <div class="two-fields">
                 <div class="single-field left">
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="email@your-organization.com">
+                    <input type="email" id="email" name="_replyto" placeholder="email@your-organization.com">
                 </div>
 
                 <div class="single-field right">
@@ -55,7 +55,7 @@
             </div>
 
             <label for="body">Message</label>
-            <textarea id="body" name="body" placeholder="Write something..." style="height:175px"></textarea>
+            <textarea id="body" name="message" placeholder="Write something..." style="height:175px"></textarea>
 
             <input type="submit" value="Submit">
         </form>
